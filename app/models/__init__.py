@@ -1,5 +1,5 @@
 """Pydantic models exposed by the application."""
 
-from app.models.candidate import CandidateProfile
+from .candidate_profile import CandidateProfile
 
 __all__ = ["CandidateProfile"]
