@@ -1,0 +1,24 @@
+# Python build artifacts and bytecode
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and test tooling
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment configuration and editor settings
+.env
+.idea/
+.vscode/
+*.swp
+
+# Runtime-generated data; retain this directory with data/.gitkeep
+data/*
+!data/.gitkeep
